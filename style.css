@@ -1,0 +1,307 @@
+*{
+  margin: 0;
+  padding: 0cm;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+menu{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  font-size: 18px;
+}
+
+.knife_image img{
+  width: 40px;
+}
+
+.button4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(179, 22, 145);
+  width: 250px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+ color: white;
+}
+
+.button:hover{
+  background-color:rgb(179, 91, 160);;
+  color:rgb(255, 255, 255);
+}
+
+
+header{
+  background-image: url(images/fonosn.jpg);
+  background-size: 100%;
+  height:800px;
+}
+
+body{
+  background-color: #1a1a1f;
+}
+
+
+.styles_name__1DRk6{
+  font-size: 60px;
+  color: white;
+  padding: 0;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.text{
+  font-size: 60px;
+  color: white;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+
+.name{
+  color: gray;
+  font-size: 20px;
+}
+
+.exchange{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(133, 100, 226);
+  width: 200px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+ color: white;
+}
+
+.button2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(59, 59, 61);
+  width: 200px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+ color: white;
+}
+
+.button3{
+  display: flex;
+  justify-content: space-between;
+  margin-left:150px;
+  width: 440px;
+}
+
+.info{
+  color: white;
+  display: flex;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  justify-content: space-around;
+  font-size: 18px; 
+}
+
+.info__el{
+  display:flex;
+  flex-direction: column;
+  height:100px;
+}
+
+.menu2{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  font-size: 18px;
+}
+.container__info{
+  width: 400px;
+  font-size: 18px;
+}
+
+
+form{
+  color:white;
+  width: 30%;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin:100px auto;
+}
+
+form input{
+  width: 100%;
+  margin-top:10px;
+  border:none;
+  border-bottom: 1px solid white;
+  color:white;
+  background: transparent;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.order{
+  background: white;
+  color: #3b7eb4;
+  border: none;
+  padding: 15px 60px;
+  border-radius: 5px;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+form input::placeholder {
+  color:white;
+}
+
+form p{
+  width: 100%;
+  margin:20px;
+}
+
+.order:hover{
+  background: #ACACAC;
+  color: white;
+  cursor: pointer;
+}
+
+.info__el__decor{
+  font-size: 35px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgb(133, 100, 226);
+  line-height: 60px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.text__info{
+  font-size:14px;
+  color:grey;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.Dop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  color:white;
+  margin: 200px;
+  font-size: 40px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.button4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(133, 100, 226);
+  width: 200px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+ color: white;
+}
+
+.second-wrapper{
+ display: flex;
+ justify-content: space-around;
+}
+
+.text777{
+  display: flex;
+  font-size: 35px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  color: white;
+  margin: 70px;
+}
+
+.serials{
+  display: flex;
+  flex-direction: column;
+  color:white;
+}
+
+.serials img{
+  padding-bottom: 40px;
+}
+
+
+
+.info__el__decor{
+  font-size: 22px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+
+.tur__link{
+ color:rgb(133, 0, 210);
+ font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+ font-size: 15px;
+ cursor: pointer;
+}
+
+.order {
+  background: rgb(133, 100, 226);
+  color: white;
+  border: none;
+  padding: 15px 60px;
+  border-radius: 3px;
+  margin-top: 1em;
+  font-weight: bold;
+}
+form {
+  color: white;
+  width: 30%;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px auto;
+}
+form input {
+  width: calc(100% - 20px);
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid rgb(133, 100, 226);
+  color: rgb(133, 100, 226);
+  background: transparent;
+  padding: 10px;
+  font-size: 16px;
+}
+form input::placeholder {
+  color: white;
+}
+form p {
+  width: 100%;
+  margin: 20px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
